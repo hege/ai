@@ -204,9 +204,8 @@ public:
 protected:
 	virtual void	putInQueue( std::set<Node*> &nodes ) {
 		for ( std::set<Node*>::iterator it = nodes.begin(); it != nodes.end(); it++ ) {
-			for ( std::list<Node*>::iterator lit = nodeQueue.begin();
-				  lit != nodeQueue.end() && (*lit)->getStep().totalCost < (*it)->getStep().totalCost;
-				  lit++ );
+			std::list<Node*>::iterator lit = nodeQueue.begin();
+			for ( ; lit != nodeQueue.end() && (*lit)->getStep().totalCost < (*it)->getStep().totalCost; lit++ );
 			nodeQueue.insert(lit, *it);
 		}
 	};

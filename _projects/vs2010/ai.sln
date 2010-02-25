@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "libai", "libai\libai.vcxproj", "{80C44267-798F-403B-AFCA-04BE36830110}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "test_libai", "test_libai\test_libai.vcxproj", "{1D7B89E7-37DA-4CD4-90B2-5648356218F6}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "WA3_WorldPuzzle", "WA3_WorldPuzzle\WA3_WorldPuzzle.vcxproj", "{85F192D6-C997-45C1-B1D1-CB14B2D87EFA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{80C44267-798F-403B-AFCA-04BE36830110}.Debug|Win32.ActiveCfg = Debug|Win32
+		{80C44267-798F-403B-AFCA-04BE36830110}.Debug|Win32.Build.0 = Debug|Win32
+		{80C44267-798F-403B-AFCA-04BE36830110}.Release|Win32.ActiveCfg = Release|Win32
+		{80C44267-798F-403B-AFCA-04BE36830110}.Release|Win32.Build.0 = Release|Win32
+		{1D7B89E7-37DA-4CD4-90B2-5648356218F6}.Debug|Win32.ActiveCfg = Debug|Win32
+		{1D7B89E7-37DA-4CD4-90B2-5648356218F6}.Debug|Win32.Build.0 = Debug|Win32
+		{1D7B89E7-37DA-4CD4-90B2-5648356218F6}.Release|Win32.ActiveCfg = Release|Win32
+		{1D7B89E7-37DA-4CD4-90B2-5648356218F6}.Release|Win32.Build.0 = Release|Win32
+		{85F192D6-C997-45C1-B1D1-CB14B2D87EFA}.Debug|Win32.ActiveCfg = Debug|Win32
+		{85F192D6-C997-45C1-B1D1-CB14B2D87EFA}.Debug|Win32.Build.0 = Debug|Win32
+		{85F192D6-C997-45C1-B1D1-CB14B2D87EFA}.Release|Win32.ActiveCfg = Release|Win32
+		{85F192D6-C997-45C1-B1D1-CB14B2D87EFA}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

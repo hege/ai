@@ -1,6 +1,11 @@
 
-#if defined _MSC_VER && ( _MSC_VER == 1300 || _MSC_VER == 1310 )	// VC++ 7.0 & 7.1
+#ifdef _MSC_VER
+#if _MSC_VER >= 1300 && _MSC_VER < 1700
 #pragma warning ( disable : 4290 )
+#endif
+#if _MSC_VER >= 1400
+#define _CRT_SECURE_NO_WARNINGS
+#endif
 #endif
 
 
